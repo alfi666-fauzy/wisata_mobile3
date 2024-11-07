@@ -1,4 +1,6 @@
 import 'package:aslab_travel/latihanmodul/pertemuan4.dart';
+import 'package:aslab_travel/latihanmodul/pertemuan5.dart';
+import 'package:aslab_travel/latihanmodul/project/screens/landing_page.dart';
 import 'package:aslab_travel/latihanmodul/project/screens/splashscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +14,7 @@ class TravelApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: SplashScreen(),
+      home: LandingPageOne(),
     ); //
   }
 }
