@@ -44,7 +44,7 @@ class ContohListView extends StatelessWidget {
         return Container(
           height: 250,
           decoration: BoxDecoration(
-              color: Colors.red, border: Border.all(color: Colors.black)),
+              color: Colors.yellow, border: Border.all(color: Colors.black)),
           child: Center(
             child: Text(
               '$number',
@@ -68,7 +68,8 @@ class ContohListViewBuilder extends StatelessWidget {
         return Container(
           height: 250,
           decoration: BoxDecoration(
-              color: Colors.yellow, border: Border.all(color: Colors.black)),
+              color: Colors.yellow, 
+              border: Border.all(color: Colors.black)),
           child: Center(
             child: Text(
               '$number',

@@ -11,7 +11,7 @@ class TravelApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: pertemuan6(),
+      home: const pertemuan6(),
     );
   }
 }
